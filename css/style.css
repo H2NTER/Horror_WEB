@@ -1,0 +1,123 @@
+body{
+    background-color: blue;
+    margin: 0;
+    background-image: url("../img/horror.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: Open Sans, sans-serif;
+}
+header{
+    background-color: black;
+}
+.menu{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+.menu li{
+    display: inline-block;
+}
+.menu a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    width: 90px;
+    padding: 30px 10px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.menu a:hover{
+    background-color: #FF3F40;
+}
+footer{
+    background-color: black;
+}
+footer p{
+    color: white;
+    width: 900px;
+    margin: 10px auto 0 auto;
+    padding: 30px 10px;
+}
+.intro-back{
+    margin-top: 20px;
+    background-color: rgba(246,242,242,0.9);
+}
+.intro{
+    width: 900px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.intro-left{
+    display: inline-block;
+    width: 65%;
+    vertical-align: top;
+    margin-right: 30px;
+}
+.intro-right{
+    width: 30%;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+    box-shadow: 5px 5px 5px;
+    
+}
+.intro-right img{
+    width: 300px;
+    height: 380px;
+    object-fit: cover;
+    transition: 1s;
+}
+.intro-right img:hover{
+    transform: scale(1.2);
+}
+.intro-left h1{
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0;
+    letter-spacing: 1.5px;
+}
+.intro-left p{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 28px;
+}
+.intro-left a{
+    display: inline-block;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 50px;
+    border-radius: 5px;
+}
+.intro-left a:hover{
+    background-color: #8B1C1C;
+}
+.content{
+    width: 900px;
+    margin: 20px auto;
+    background-color: rgba(86, 70, 71, 0.9);
+    color: white;
+    padding: 20px;
+    line-height: 28px;
+    text-align: justify;
+}
+.img1{
+    width: 300px;
+    float: left;
+    margin-right: 10px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    display: inline-block;
+}
